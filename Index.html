@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+        *{
+            font-family: "Plain Light";
+        }
+        #upperfont h3 {
+            font-family: "silk serif";
+        }
+        #upperfont h5 {
+            font-family: "silk serif";
+        }
+
+
+        @keyframes Animate {
+
+            0%{
+                font-family:"Plain Light" ;
+                color: white;
+                opacity: 0;
+                
+                
+            }
+            50%{
+                font-family:"Plain Light" ;
+                color: white;
+                opacity: 1;
+                
+                
+            }
+            51%{
+
+                font-family:"silk serif" ;
+                font-weight: 200;
+                 -webkit-text-stroke: 1px black;
+                 opacity: 0;
+
+
+            }
+            100%{
+
+                font-family:"silk serif" ;
+                font-weight: 200;
+                -webkit-text-stroke: 2px rgb(219, 219, 219);
+                opacity: 1;
+
+
+            }
+            
+        }
+
+        #nowbox{
+            animation: Animate 1.2s infinite ;
+        }
+    </style>
+</head>
+<body>
+    <div class=" bg-[#0B0B0B] w-[100%] h-[100%] fixed text-[7vw] leading-40 pl-[4vw] pt-[8vw]  " id="loader">
+
+        <div class="loaderline text-white overflow-hidden flex gap-[6vw] ">
+            <div id="upperfont" class="flex text-[3vw] ml-[5vw] w-[8vw]  ">
+                <h3 id="countnumber">0</h3>
+                <h5>-100</h5>
+            </div>
+            <h1 class="mt-[2vw] uppercase ">Your</h1>
+        </div>
+        <div class="loaderline text-white overflow-hidden uppercase  ">
+            <h1>Web experience</h1>
+        </div>
+        <div class="loaderline text-white overflow-hidden flex gap-[2vw] uppercase  ">
+            <h1>Is loading write</h1>
+            <h1 class=" text-black" id="nowbox">Now</h1>
+        </div>
+
+        <div id="downtext" class="text-[16px] leading-4 text-white ml-[20vw]">
+            <h1> Please wait  <br> a few seconds</h1>
+        </div>
+       
+        
+     </div>
+     
+
+     <div id="main" class="bg-black hidden">
+        <div id="page1" class="w-[100%] h-[100vh] bg-[#575656]"></div>
+     </div>
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>  
+</body>
+</html>
