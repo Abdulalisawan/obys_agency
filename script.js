@@ -74,3 +74,4 @@ let interval = setInterval(function(){
 
 
 });
+// loader done
