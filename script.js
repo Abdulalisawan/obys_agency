@@ -1,4 +1,7 @@
 
+
+
+
 let count=0;
 let countnumber= document.querySelector(`#countnumber`);
 
@@ -40,14 +43,19 @@ tl.to( `#loader`,{
 
       let loader= document.querySelector(`#loader`).classList.add(`hidden`);
       let main= document.querySelector(`#main`).classList.remove(`hidden`);
+      let page2= document.querySelector(`#page2`).classList.remove(`hidden`);
+      let page3= document.querySelector(`#page3`).classList.remove(`hidden`);
+      let page4= document.querySelector(`#page4`).classList.remove(`hidden`);
+      let page5= document.querySelector(`#page5`).classList.remove(`hidden`);
+      
 
-
-
-    }
+}
    
     
 
 })
+
+
 
 tl.from(`#page1`,{
   y:1600,
@@ -86,6 +94,31 @@ tl.from(`.headingpart h1`,{
 });
 
 // done 
+
+gsap.from(`#page4_heading h1`,{
+  y:150,
+  
+  duration:0.5,
+})
+
+gsap.from(`#line`,{
+  x:1000,
+  
+  duration:1,
+})
+
+
+gsap.from(`#page5_heading h1`,{
+  y:150,
+  
+  duration:0.5,
+})
+
+gsap.from(`#line `,{
+  x:1000,
+  
+  duration:1,
+})
 
 
 
