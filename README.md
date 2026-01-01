@@ -19,7 +19,7 @@ Add a clean screenshot of the homepage.
 Save the image as `screenshot.png` in the root directory.
 
 ![Obys Agency UI Clone Screenshot](./secreenshot3.jpeg)
-![Obys Agency UI Clone Screenshot](./secreenshot4.jpeg)
+![Obys Agency UI Clone Screenshot](./sccreenshot4.jpeg)
 
 ---
 
