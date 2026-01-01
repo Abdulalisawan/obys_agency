@@ -18,7 +18,8 @@ The project replicates the visual style, layout structure, and animation behavio
 Add a clean screenshot of the homepage.  
 Save the image as `screenshot.png` in the root directory.
 
-![Obys Agency UI Clone Screenshot](./screenshot.png)
+![Obys Agency UI Clone Screenshot](./secreenshot3.jpeg)
+![Obys Agency UI Clone Screenshot](./secreenshot4.jpeg)
 
 ---
 
